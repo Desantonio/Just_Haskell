@@ -13,3 +13,5 @@ main = do
       sumResult = num1 + num2
 
   putStrLn $ "The sum of " ++ show num1 ++ " and " ++ show num2 ++ " is " ++ show sumResult
+  let x = 40
+  putStrLn $ "The value of x is: " ++ show x
