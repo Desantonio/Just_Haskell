@@ -3,7 +3,14 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: gnuplot-0.5.7@sha256:525b5821dd09a03e69e451b90d4dba5b297706f67db4a2edb217fd54c06919e9,5119
+    pantry-tree:
+      sha256: 3ebe8d3cd6b1ec08a591d4ee76741e6ccd82cdd00dbeeb889113d5a6ea6a700e
+      size: 4445
+  original:
+    hackage: gnuplot-0.5.7
 snapshots:
 - completed:
     sha256: 64d66303f927e87ffe6b8ccf736229bf608731e80d7afdf62bdd63c59f857740
